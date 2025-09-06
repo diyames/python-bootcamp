@@ -4,8 +4,12 @@ while running:
     command = input("Provide command: ")
 
     if command == "add":
-        pass  # TODO: Ask for number, add to total, and print
+        total += int(input("Enter number: "))
+        print("Total:", total)
     if command == "sub":
-        pass  # TODO: Ask for number, subtract to total, and print
+        total -= int(input("Enter number: "))
+        print("Total:", total)
     elif command == "exit":
         running = False
+
+

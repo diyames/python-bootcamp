@@ -1,7 +1,9 @@
+"""
 # TODO: Ask the user for an integer input
 number = int(input("Pick a number: "))
 
 # TODO: Print the multiplication table for that number
+"""
 """
 Example:
 number = 3
@@ -17,3 +19,11 @@ number = 3
 3 x 9 = 27
 3 x 10 = 30
 """
+
+number = int(input("Enter a number to multipy: "))
+
+def multiplication_table(x):
+    for minuend in range(1, 10 + 1):
+        print(f" {minuend} * {x} = {minuend * x}")
+
+multiplication_table(number)

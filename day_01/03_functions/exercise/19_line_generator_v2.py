@@ -4,6 +4,18 @@
 	Line 2
 	...
 	Line number
-"""
 
-# TODO: Use the function once
+	# TODO: Use the function once
+"""
+"""
+def greeting(name):
+    print(f"Hello, {name}! Nice to meet you!")
+
+greeting("Bob")
+"""
+def line_generator(number):
+    for line in range(number):
+        print("Line {}".format(line+1))
+
+line_generator(int(input("How many lines you want to generate: ")))
+

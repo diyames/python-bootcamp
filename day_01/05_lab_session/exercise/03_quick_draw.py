@@ -9,3 +9,9 @@ cpu_choice = None
 
 # Challenge: TODO: Robust Input
 # Challenge: TODO: Multi-rounds
+
+from random import choice
+
+options = ["rock", "paper", "scissors"]
+random_option = choice(options)
+print(random_option )
